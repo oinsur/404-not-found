@@ -1,0 +1,77 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+/*Remove default margins,padding & set box-sizing*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  max-width: 1440px;
+  max-height: 1080px;
+  margin: 0 auto;
+}
+
+/*Header styles*/
+.header {
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.5em;
+  line-height: 25.18px;
+  margin: 40px 0 200px 77px;
+}
+
+/*main content styles*/
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*Picture styles*/
+.pic {
+  width: 37.5%;
+  margin-left: 77px;
+}
+
+/*Styles for content elements*/
+.content-items {
+  font-family: 'Space Mono', monospace;
+  margin-left: 119px;
+}
+
+.content-heading {
+  width: 588px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 94.78px;
+}
+
+.content-subheading {
+  margin-top: 36px;
+  width: 382px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35.54px;
+}
+
+/*button styles*/
+.homepage {
+  margin-top: 64px ;
+  width: 216px;
+  height: 68px;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/*footer styles*/
+.footer {
+  margin: 308px 0 24px 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #BDBDBD;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+}
