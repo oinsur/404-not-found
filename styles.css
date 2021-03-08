@@ -25,12 +25,13 @@
 /*main content styles*/
 .content {
   display: flex;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
 }
 
 /*Picture styles*/
 .pic {
   width: 37.5%;
+  height: 100%;
   margin-left: 77px;
 }
 
@@ -79,4 +80,81 @@
 .footer span {
   text-decoration: underline;
   font-weight: 700;
+}
+/*media queries*/
+@media screen and (max-width: 1024px) {
+  .header {
+    margin: 30px 0 142px 56px;
+  }  
+  .content {
+    width: 90%;
+    margin: 0 56px;
+  }
+  .pic {
+    width: 41.45%;
+    margin: 0;
+  }
+  .content-items {
+    margin-left: 90px;
+    margin-right: 114px;
+  }
+  .content-heading {
+    width: 385px;
+    font-size: 41px;
+    line-height: 66px;
+  }
+  .content-subheading{
+    margin-top: 31px;
+    width: 256px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .homepage {
+    margin-top: 40px;
+    width: 40%;
+    height: 16%;
+    font-size: 11px;
+  }
+  .footer {
+    margin: 228px 0 22px 0;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .header {
+    font-size: 1.18em;
+    margin: 26px 0 68px 24px;
+  }  
+  .content {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+  }
+  .pic {
+    width: 80%;
+    margin: 0 auto
+  }
+  .content-items {
+    width: 80%;
+    margin: 82px auto;
+  }
+  .content-heading {
+    width: 320px;
+    font-size: 2.5em;
+    line-height: 56px
+  }
+  .content-subheading{
+    margin-top: 44px;
+    font-size: 15px;
+    line-height: 24px
+  }
+  .homepage {
+    width: 70%;
+    height: 21%;
+    font-size: 10px;
+  }
+  .footer {
+    margin: 120px 0 22px 0;
+  }
 }
